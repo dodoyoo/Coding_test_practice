@@ -26,5 +26,5 @@ function solution(num_str) {
 - 나는 이번 문제 풀이에서 parseint()를 사용해 주었다.
 - 이 메서드는 문자열을 파싱하여 숫자나 NaN을 return해준다.
 - 그래서 반복문을 먼저 만들어 준다음
-- 합을 하기 구해주기 위해서 answer = parseInt(num_str[i])를 사용해 주었다.
+- 합을 하기 구해주기 위해서 answer = parseInt(num_str[I])를 사용해 주었다.
 */
