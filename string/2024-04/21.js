@@ -16,6 +16,8 @@ function solution(q, r, code) {
   }
   return answer;
 }
+
+console.log(solution(3, 1, 'qjnwezgrpirldywt')); // "jerry"
 /*
 해결
 - 이 문제는 쉽게 풀 수 있었다.
