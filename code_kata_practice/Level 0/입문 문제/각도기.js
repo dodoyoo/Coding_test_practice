@@ -14,3 +14,7 @@ solution 함수르 완성해주세요.
 function solution(angle) {
   return angle < 90 ? 1 : angle == 90 ? 2 : angle < 180 ? 3 : 4;
 }
+
+console.log(solution(70)); // 1
+console.log(solution(91)); // 3
+console.log(solution(180)); // 4

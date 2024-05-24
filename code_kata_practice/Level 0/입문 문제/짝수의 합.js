@@ -14,3 +14,7 @@ function solution(n) {
   }
   return answer;
 }
+
+console.log(solution(10)); //30
+
+console.log(solution(4)); //6

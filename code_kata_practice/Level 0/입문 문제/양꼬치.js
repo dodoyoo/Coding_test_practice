@@ -18,3 +18,6 @@ function solution(n, k) {
     return f * n + k * d - d;
   }
 }
+
+console.log(solution(10, 3)); // 124,000
+console.log(solution(64, 6)); // 768,000
