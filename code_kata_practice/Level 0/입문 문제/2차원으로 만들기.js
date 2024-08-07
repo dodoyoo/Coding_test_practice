@@ -20,5 +20,16 @@ function solution(num_list, n) {
   return arr;
 }
 
+// 또 다른 풀이
+function solution(num_list, n) {
+  const answer = [];
+
+  while (num_list.length) {
+    answer.push(num_list.splice(0, n));
+  }
+
+  return answer;
+}
+
 console.log(solution([1, 2, 3, 4, 5, 6, 7, 8], 2)); //[[1, 2], [3, 4], [5, 6], [7, 8]]
 console.log(solution([100, 95, 2, 4, 5, 6, 18, 33, 948], 3)); // [[100, 95, 2], [4, 5, 6], [18, 33, 948]]
