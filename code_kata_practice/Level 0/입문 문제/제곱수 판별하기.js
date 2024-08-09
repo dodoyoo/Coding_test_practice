@@ -18,3 +18,8 @@ function solution(n) {
 
 console.log(solution(144)); // 1
 console.log(solution(976)); // 2
+
+// case 2
+function solution(n) {
+  return Number.isInteger(Math.sqrt(n)) ? 1 : 2;
+}
