@@ -13,3 +13,8 @@ function solution(age) {
 
 console.log(solution(40)); // 1983
 console.log(solution(23)); // 2000
+
+// case 2
+function solution(age) {
+  return new Date().getFullYear() - age + 1;
+}
