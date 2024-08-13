@@ -17,3 +17,8 @@ function solution(n) {
 
 console.log(solution(1234)); // 10
 console.log(solution(930211)); // 16
+
+// case 2
+function solution(n) {
+  return (n + '').split('').reduce((acc, curr) => acc + parseInt(curr), 0);
+}
