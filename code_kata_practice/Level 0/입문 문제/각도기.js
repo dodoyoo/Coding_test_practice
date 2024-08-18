@@ -18,3 +18,8 @@ function solution(angle) {
 console.log(solution(70)); // 1
 console.log(solution(91)); // 3
 console.log(solution(180)); // 4
+
+// case 2
+function solution(angle) {
+  return [0, 90, 91, 180].filter((x) => angle >= x).length;
+}
