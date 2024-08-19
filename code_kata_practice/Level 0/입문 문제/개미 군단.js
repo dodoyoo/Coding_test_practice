@@ -27,3 +27,8 @@ function solution(hp) {
   return first + second + third;
 }
 console.log(solution(23)); // 5
+
+// case 2
+function solution(hp) {
+  return Math.floor(hp / 5) + Math.floor((hp % 5) / 3) + ((hp % 5) % 3);
+}
