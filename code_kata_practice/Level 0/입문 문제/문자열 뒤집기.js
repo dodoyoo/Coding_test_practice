@@ -12,3 +12,8 @@ function solution(my_string) {
 }
 
 console.log(solution('bread')); // "daerd"
+
+// case 2
+function solution(my_string) {
+  return my_string.split('').reverse().join('');
+}
