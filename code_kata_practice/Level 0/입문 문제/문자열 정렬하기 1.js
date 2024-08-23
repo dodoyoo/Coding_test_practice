@@ -16,3 +16,12 @@ function solution(my_string) {
 
 console.log(solution('p2o4i8gj2')); // [2, 2, 4, 8]
 console.log(solution('hi12392')); // [1, 2, 2, 3, 9]
+
+// case 2
+function solution(my_string) {
+  return my_string
+    .replace(/[^\d]/g, '')
+    .split('')
+    .map((v) => +v)
+    .sort();
+}
