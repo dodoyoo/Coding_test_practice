@@ -12,3 +12,8 @@ function solution(my_string) {
 }
 
 console.log(solution('Python')); //"hnopty"
+
+// case 2
+function solution(my_string) {
+  return my_string.toLowerCase().split('').sort().join('');
+}
