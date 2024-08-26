@@ -17,3 +17,11 @@ function solution(numbers, direction) {
 }
 
 console.log(solution([1, 2, 3], 'right')); // [3, 2, 1]
+
+// case 2
+function solution(numbers, direction) {
+  direction === 'right'
+    ? numbers.unshift(numbers.pop())
+    : numbers.push(numbers.shift());
+  return numbers;
+}
