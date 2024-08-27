@@ -21,3 +21,9 @@ function solution(s1, s2) {
 
 console.log(solution(['a', 'b', 'c'], ['com', 'b', 'd', 'p', 'c'])); // 2
 console.log(solution(['n', 'omg'], ['m', 'dot'])); // 0
+
+// case 2
+function solution(s1, s2) {
+  const intersection = s1.filter((x) => s2.includes(x));
+  return intersection.length;
+}
