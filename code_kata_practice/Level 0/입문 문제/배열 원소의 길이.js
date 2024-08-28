@@ -16,3 +16,8 @@ function solution(strlist) {
 }
 
 console.log(solution(['We', 'are', 'the', 'world!'])); // [2, 3, 3, 6]
+
+//case 2
+function solution(strlist) {
+  return strlist.map((el) => el.length);
+}
