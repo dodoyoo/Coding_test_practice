@@ -15,3 +15,8 @@ function solution(n) {
   }
   return pizzas;
 }
+
+//case 2
+function solution(n) {
+  return Math.ceil(n / 7);
+}
