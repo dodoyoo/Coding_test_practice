@@ -22,3 +22,26 @@ rl.on('line', function (line) {
     console.log('*'.repeat(i));
   }
 });
+
+// case 2
+const readline = require('readline');
+const rl2 = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+let input2 = [];
+
+rl2
+  .on('line', function (line) {
+    input2 = line.split(' ');
+  })
+  .on('close', function () {
+    solution(Number(input[0]));
+  });
+
+function solution(n) {
+  for (let i = 1; i < n + 1; i++) {
+    console.log('*'.repeat(i));
+  }
+}
