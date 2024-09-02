@@ -13,3 +13,14 @@ function solution(num, k) {
 }
 
 console.log(solution(29183, 1)); // 3
+
+//case 2
+function solution(num, k) {
+  return (
+    num
+      .toString()
+      .split('')
+      .map((el) => Number(el))
+      .indexOf(k) + 1 || -1
+  );
+}
