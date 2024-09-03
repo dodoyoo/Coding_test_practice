@@ -19,3 +19,9 @@ function solution(sides) {
 console.log(solution([1, 2, 3])); // 2
 console.log(solution([3, 6, 2])); // 2
 console.log(solution([199, 72, 222])); // 1
+
+// case 2
+function solution(sides) {
+  sides = sides.sort((a, b) => a - b);
+  return sides[0] + sides[1] > sides[2] ? 1 : 2;
+}
