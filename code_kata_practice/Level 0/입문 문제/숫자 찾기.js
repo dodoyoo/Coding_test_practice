@@ -14,7 +14,7 @@ function solution(num, k) {
 
 console.log(solution(29183, 1)); // 3
 
-//case 2
+//case 2 다른방식 풀이
 function solution(num, k) {
   return (
     num
