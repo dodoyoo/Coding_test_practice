@@ -14,3 +14,13 @@ function solution(money) {
 
 console.log(solution(5, 500)); // [1, 0]
 console.log(solution(15000)); // [2, 4000]
+
+// case 2
+function solution(money) {
+  let count = 0;
+  while (money >= 5500) {
+    money -= 5500;
+    count++;
+  }
+  return [count, money];
+}
