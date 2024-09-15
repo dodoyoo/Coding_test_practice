@@ -13,3 +13,14 @@ function solution(numbers, num1, num2) {
 
 console.log(solution([1, 2, 3, 4, 5], 1, 3)); // [2, 3, 4]
 console.log(solution([1, 3, 5], 1, 2)); // [3, 5]
+
+// case 2
+function solution(numbers, num1, num2) {
+  var answer = [];
+
+  for (let i = num1; i < num2 + 1; i++) {
+    answer.push(numbers[i]);
+  }
+
+  return answer;
+}
