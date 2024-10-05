@@ -14,3 +14,12 @@ function solution(slice, n) {
 
 console.log(solution(7, 10)); // 2
 console.log(solution(4, 12)); // 3
+
+// case 2
+function solution(slice, n) {
+  let i = 1;
+  while (slice * i < n) {
+    i++;
+  }
+  return i;
+}
