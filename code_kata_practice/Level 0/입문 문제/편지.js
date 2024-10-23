@@ -16,3 +16,10 @@ function solution(message) {
 console.log(solution('happy birthday!')); // 30
 console.log(solution('I love you~')); // 22
 console.log(solution('hello')); // 10
+
+// case 2
+function solution(message) {
+  let sum = 0;
+  let str = message.split('');
+  return str.length * 2;
+}
