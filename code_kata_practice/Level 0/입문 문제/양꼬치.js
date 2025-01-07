@@ -21,3 +21,8 @@ function solution(n, k) {
 
 console.log(solution(10, 3)); // 124,000
 console.log(solution(64, 6)); // 768,000
+
+// case 2
+function solution(n, k) {
+  return n * 12000 + k * 2000 - parseInt(n / 10) * 2000;
+}
