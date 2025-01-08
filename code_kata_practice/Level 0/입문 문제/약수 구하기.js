@@ -17,3 +17,11 @@ function solution(n) {
 }
 
 console.log(solution(24)); // [1, 2, 3, 4, 6, 8, 12, 24]
+
+// case 2
+function solution(n) {
+  return Array(n)
+    .fill(0)
+    .map((v, index) => v + index + 1)
+    .filter((v) => n % v === 0);
+}
