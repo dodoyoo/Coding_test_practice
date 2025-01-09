@@ -17,3 +17,12 @@ function solution(ci, code) {
 
 console.log(solution('dfjardstddetckdaccccdegk', 4)); // "attack"
 console.log(solution('pfqallllabwaoclk', 2)); // fallback
+
+// case 2
+function solution(cipher, code) {
+  var answer = '';
+  for (let i = code - 1; i < cipher.length; i += code) {
+    answer += cipher[i];
+  }
+  return answer;
+}
