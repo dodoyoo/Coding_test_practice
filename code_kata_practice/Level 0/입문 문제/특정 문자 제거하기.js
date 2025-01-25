@@ -14,3 +14,9 @@ function solution(my_string, letter) {
 
 console.log(solution('abcdef', 'f')); // "abcde"
 console.log(solution('BCBdbe', 'B')); // "Cdbe"
+
+// case2
+function solution(my_string, letter) {
+  const answer = my_string.split(letter).join('');
+  return answer;
+}
