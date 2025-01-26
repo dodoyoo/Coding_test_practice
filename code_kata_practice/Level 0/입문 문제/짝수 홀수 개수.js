@@ -21,3 +21,14 @@ function solution(num_list) {
 
 console.log(solution([1, 2, 3, 4, 5])); // [2, 3]
 console.log(solution([1, 3, 5, 7])); // [0, 4]
+
+//case 2
+function solution(num_list) {
+  var answer = [0, 0];
+
+  for (let a of num_list) {
+    answer[a % 2] += 1;
+  }
+
+  return answer;
+}
