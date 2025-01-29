@@ -19,3 +19,8 @@ function solution(box, n) {
 
 console.log(solution([1, 1, 1], 1)); // 1
 console.log(solution([10, 8, 6], 3)); // 12
+
+// case 2
+function solution(box, n) {
+  return box.reduce((acc, v) => acc * Math.floor(v / n), 1);
+}
