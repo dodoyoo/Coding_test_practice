@@ -22,3 +22,12 @@ function solution(age) {
 
 console.log(solution(23)); // "cd"
 console.log(solution(100)); // "baa"
+
+// case 2
+function solution(age) {
+  return age
+    .toString()
+    .split('')
+    .map((v) => 'abcdefghij'[v])
+    .join('');
+}
